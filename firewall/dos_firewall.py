@@ -4,7 +4,7 @@ import time
 from scapy.all import sniff, IP
 from collections import defaultdict
 
-Threshold = 2  # Max packets per second from a single IP
+Threshold = 20  # Max packets per second from a single IP
 print("Starting DoS Firewall...")
 print(f"Threshold set to {Threshold} packets/second")
 
